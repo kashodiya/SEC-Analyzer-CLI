@@ -13,7 +13,7 @@ This project **MUST** use [edgartools](https://github.com/dgunning/edgartools) f
 
 ## Current Implementation
 
-The main SEC client (`src/frb_sec_analyzer/sec_client.py`) properly uses edgartools:
+The main SEC client (`src/sec_analyzer/sec_client.py`) properly uses edgartools:
 
 ```python
 from edgar import Company, Filing, get_filings, set_identity

@@ -3,9 +3,9 @@
 
 import asyncio
 import json
-from src.frb_sec_analyzer.config import Config
-from src.frb_sec_analyzer.sec_client import SECClient
-from src.frb_sec_analyzer.risk_analyzer import RiskAnalyzer
+from src.sec_analyzer.config import Config
+from src.sec_analyzer.sec_client import SECClient
+from src.sec_analyzer.risk_analyzer import RiskAnalyzer
 
 async def debug_analysis():
     """Debug the analysis process step by step."""

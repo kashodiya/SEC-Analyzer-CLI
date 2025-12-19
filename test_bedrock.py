@@ -3,7 +3,7 @@
 
 import boto3
 import json
-from src.frb_sec_analyzer.config import Config
+from src.sec_analyzer.config import Config
 
 def test_bedrock():
     """Test basic Bedrock connectivity."""

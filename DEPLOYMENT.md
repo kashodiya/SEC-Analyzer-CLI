@@ -24,7 +24,7 @@ The FRB SEC Analyzer is now ready for deployment on your EC2 instance with AWS B
 
 ```
 frb-sec-analyzer/
-├── src/frb_sec_analyzer/
+├── src/sec_analyzer/
 │   ├── __init__.py           # Package initialization
 │   ├── cli.py               # Main CLI interface with Rich formatting
 │   ├── config.py            # Configuration management with environment variables

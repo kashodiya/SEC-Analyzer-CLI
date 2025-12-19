@@ -78,8 +78,8 @@ cat > test_mock_analysis.py << 'EOF'
 import asyncio
 import json
 from datetime import datetime
-from frb_sec_analyzer.config import Config
-from frb_sec_analyzer.sec_client import SECClient
+from sec_analyzer.config import Config
+from sec_analyzer.sec_client import SECClient
 
 async def mock_analysis_test():
     """Test analysis workflow with mock AI responses."""
@@ -152,7 +152,7 @@ async def mock_analysis_test():
     
     # Test report generation
     print("\n3. Testing Report Generation...")
-    from frb_sec_analyzer.report_generator import ReportGenerator
+    from sec_analyzer.report_generator import ReportGenerator
     
     report_gen = ReportGenerator(config)
     report = report_gen.generate_report(mock_analysis, "AAPL", "10-K")

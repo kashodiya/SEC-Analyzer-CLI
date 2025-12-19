@@ -170,7 +170,7 @@ The tool uses edgartools for SEC data access, which automatically handles SEC ED
 
 ```
 sec-analyzer/
-├── src/frb_sec_analyzer/
+├── src/sec_analyzer/
 │   ├── __init__.py
 │   ├── cli.py              # Main CLI interface
 │   ├── config.py           # Configuration management
